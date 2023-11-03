@@ -77,25 +77,25 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
             <h4>Follow Me.</h4>
             <ul className="space-between">
               <li>
-                <a href="#" className="flex-center">
+                <a href="https://www.instagram.com/aman_codes1/" target="_blank" className="flex-center">
                   INSTAGRAM
                   <BsArrowRight className="icon" />
                 </a>
               </li>
               <li>
-                <a href="#" className="flex-center">
+                <a href="https://www.linkedin.com/in/aman-sayyad/" target="_blank" className="flex-center">
                   LINKEDIN
                   <BsArrowRight className="icon" />
                 </a>
               </li>
               <li>
-                <a href="#" className="flex-center">
+                <a href="https://twitter.com/AmanRajuSayyad1" target="_blank" className="flex-center">
                   TWITTER
                   <BsArrowRight className="icon" />
                 </a>
               </li>
               <li>
-                <a href="#" className="flex-center">
+                <a href="https://github.com/amanrsayyad/" target="_blank" className="flex-center">
                   GITHUB
                   <BsArrowRight className="icon" />
                 </a>
