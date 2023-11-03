@@ -10,10 +10,10 @@ const Footer = () => {
       </h4>
       <p>Developing web & mobile application emphasizing complex features</p>
       <div className="links">
-        <a href="#">INSTAGRAM</a>
-        <a href="#">LINKEDIN</a>
-        <a href="#">TWITTER</a>
-        <a href="#">GITHUB</a>
+        <a href="https://www.instagram.com/aman_codes1/" target="_blank">INSTAGRAM</a>
+        <a href="https://www.linkedin.com/in/aman-sayyad/" target="_blank">LINKEDIN</a>
+        <a href="https://twitter.com/AmanRajuSayyad1" target="_blank">TWITTER</a>
+        <a href="https://github.com/amanrsayyad/" target="_blank">GITHUB</a>
       </div>
       <div className="footer_grid">
         <div className="footer_links">

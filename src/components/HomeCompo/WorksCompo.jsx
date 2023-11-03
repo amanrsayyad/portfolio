@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { BsArrowRight } from "../../utils/icon";
+import { agro, shop } from "../../utils/images";
 
 const Works = () => {
   return (
@@ -19,32 +20,32 @@ const Works = () => {
       <div className="grid">
         <div className="card">
           <img
-            src="https://framerusercontent.com/images/6babye8epZSGsKlHmmaeaww4mis.png"
+            src={shop}
             alt=""
           />
           <div className="cardTitle space-between">
             <div>
-              <h4>Google</h4>
-              <p>Branding</p>
+              <h4>Shop.Co</h4>
+              <p>Eccomerce Website</p>
             </div>
-            <Link to="#" className="btnLink">
+            <a href="https://lucky-elf-7b4810.netlify.app/" target="_blank" className="btnLink">
               <BsArrowRight className="icon" />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="card">
           <img
-            src="https://framerusercontent.com/images/2oPFIFPke06X7dQc4yRgpdiMtU.jpg?scale-down-to=2048"
+            src={agro}
             alt=""
           />
           <div className="cardTitle space-between">
             <div>
-              <h4>Figma</h4>
-              <p>Mobile App</p>
+              <h4>Dnyaneshwar Agro</h4>
+              <p>Marketing & Business Website</p>
             </div>
-            <Link to="#" className="btnLink">
+            <a href="https://dnyaneshwaragro.in/" target="_blank" className="btnLink">
               <BsArrowRight className="icon" />
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -100,14 +101,14 @@ const WorksMain = styled.div`
   }
   .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 2rem;
     margin-top: 3rem;
 
     .card {
       img {
         width: 100%;
-        height: 500px;
+        height: 700px;
         border-radius: 35px 35px 0px 0px;
       }
       .cardTitle {

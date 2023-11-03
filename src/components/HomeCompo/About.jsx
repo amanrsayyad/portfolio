@@ -17,7 +17,7 @@ const About = () => {
             accurately representing a brand with i am working in the digital
             world, setting it apart from the competition.
           </p>
-          <Link to="#" className="btn none flex-center">
+          <Link to="/about" className="btn none flex-center">
             About Me <BsArrowRight className="icon" />
           </Link>
         </div>
