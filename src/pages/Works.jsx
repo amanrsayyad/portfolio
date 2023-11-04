@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "../utils/icon";
+import { agro, shop } from "../utils/images";
 
 const Works = () => {
   useEffect(() => {
@@ -16,38 +17,38 @@ const Works = () => {
         </h1>
       </div>
       <WorksMain>
-        <div className="grid">
-          <div className="card">
-            <img
-              src="https://framerusercontent.com/images/6babye8epZSGsKlHmmaeaww4mis.png"
-              alt=""
-            />
-            <div className="cardTitle space-between">
-              <div>
-                <h4>Google</h4>
-                <p>Branding</p>
-              </div>
-              <Link to="#" className="btnLink">
-                <BsArrowRight className="icon" />
-              </Link>
+      <div className="grid">
+        <div className="card">
+          <img
+            src={shop}
+            alt=""
+          />
+          <div className="cardTitle space-between">
+            <div>
+              <h4>Shop.Co</h4>
+              <p>Eccomerce Website</p>
             </div>
-          </div>
-          <div className="card">
-            <img
-              src="https://framerusercontent.com/images/2oPFIFPke06X7dQc4yRgpdiMtU.jpg?scale-down-to=2048"
-              alt=""
-            />
-            <div className="cardTitle space-between">
-              <div>
-                <h4>Figma</h4>
-                <p>Mobile App</p>
-              </div>
-              <Link to="#" className="btnLink">
-                <BsArrowRight className="icon" />
-              </Link>
-            </div>
+            <a href="https://lucky-elf-7b4810.netlify.app/" target="_blank" className="btnLink">
+              <BsArrowRight className="icon" />
+            </a>
           </div>
         </div>
+        <div className="card">
+          <img
+            src={agro}
+            alt=""
+          />
+          <div className="cardTitle space-between">
+            <div>
+              <h4>Dnyaneshwar Agro</h4>
+              <p>Marketing & Business Website</p>
+            </div>
+            <a href="https://dnyaneshwaragro.in/" target="_blank" className="btnLink">
+              <BsArrowRight className="icon" />
+            </a>
+          </div>
+        </div>
+      </div>
       </WorksMain>
     </WorksContainer>
   );
@@ -91,14 +92,14 @@ const WorksContainer = styled.div`
 const WorksMain = styled.div`
   .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 2rem;
     margin-top: 3rem;
 
     .card {
       img {
         width: 100%;
-        height: 500px;
+        height: 700px;
         border-radius: 35px 35px 0px 0px;
       }
       .cardTitle {

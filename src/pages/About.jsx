@@ -55,7 +55,7 @@ const About = () => {
                 <h5>Nmskaar Infotech</h5>
               </div>
               <div>
-                <p>2022 - precent</p>
+                <p>Aug 2022 - Nov 2023</p>
               </div>
             </li>
             <li className="space-between">
@@ -64,7 +64,7 @@ const About = () => {
                 <h5>Stylopedia Technology</h5>
               </div>
               <div>
-                <p>2021 - 2022</p>
+                <p>Aug 2021 - Aug 2022</p>
               </div>
             </li>
           </ul>
