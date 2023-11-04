@@ -55,7 +55,7 @@ const About = () => {
                 <h5>Nmskaar Infotech</h5>
               </div>
               <div>
-                <p>Aug 2022 - Nov 2023</p>
+                <p>Aug 2022 - Oct 2023</p>
               </div>
             </li>
             <li className="space-between">
@@ -225,7 +225,7 @@ const AboutMain = styled.div`
               right: 0%;
               top: 100%;
               color: var(--grey);
-              width: 150px;
+              width: 200px;
               text-align: right;
             }
           }
